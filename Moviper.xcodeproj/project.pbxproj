@@ -211,6 +211,7 @@
 			isa = PBXGroup;
 			children = (
 				EAEC89F02184DB400042173A /* Core */,
+				EAD4E29E2187795F000A7F34 /* TODO.swift */,
 				EAEC89D92184C5C80042173A /* Moviper.h */,
 				EAEC89DA2184C5C80042173A /* Info.plist */,
 			);
@@ -229,7 +230,6 @@
 		EAEC89F02184DB400042173A /* Core */ = {
 			isa = PBXGroup;
 			children = (
-				EAD4E29E2187795F000A7F34 /* TODO.swift */,
 				EAEC89F12184DC510042173A /* MoviperIpc.swift */,
 				EAEC89F42184DD640042173A /* Protocols */,
 				EAEC89F32184DD5D0042173A /* Base */,
