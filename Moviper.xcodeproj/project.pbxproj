@@ -14,7 +14,6 @@
 		EAD4E2992187757E000A7F34 /* ViperNavigator.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAD4E2982187757E000A7F34 /* ViperNavigator.swift */; };
 		EAD4E29B218777FE000A7F34 /* UIViewUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAD4E29A218777FE000A7F34 /* UIViewUtils.swift */; };
 		EAD4E29D21877848000A7F34 /* RootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAD4E29C21877848000A7F34 /* RootViewController.swift */; };
-		EAD4E29F2187795F000A7F34 /* TODO.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAD4E29E2187795F000A7F34 /* TODO.swift */; };
 		EAEC89E02184C5C90042173A /* Moviper.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAEC89D62184C5C80042173A /* Moviper.framework */; };
 		EAEC89E52184C5C90042173A /* MoviperTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAEC89E42184C5C90042173A /* MoviperTests.swift */; };
 		EAEC89E72184C5C90042173A /* Moviper.h in Headers */ = {isa = PBXBuildFile; fileRef = EAEC89D92184C5C80042173A /* Moviper.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -64,7 +63,6 @@
 		EAD4E2982187757E000A7F34 /* ViperNavigator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViperNavigator.swift; sourceTree = "<group>"; };
 		EAD4E29A218777FE000A7F34 /* UIViewUtils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewUtils.swift; sourceTree = "<group>"; };
 		EAD4E29C21877848000A7F34 /* RootViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootViewController.swift; sourceTree = "<group>"; };
-		EAD4E29E2187795F000A7F34 /* TODO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TODO.swift; sourceTree = "<group>"; };
 		EAEC89D62184C5C80042173A /* Moviper.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Moviper.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		EAEC89D92184C5C80042173A /* Moviper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Moviper.h; sourceTree = "<group>"; };
 		EAEC89DA2184C5C80042173A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -211,7 +209,6 @@
 			isa = PBXGroup;
 			children = (
 				EAEC89F02184DB400042173A /* Core */,
-				EAD4E29E2187795F000A7F34 /* TODO.swift */,
 				EAEC89D92184C5C80042173A /* Moviper.h */,
 				EAEC89DA2184C5C80042173A /* Info.plist */,
 			);
@@ -402,7 +399,6 @@
 				EAEC8A062184DE940042173A /* BaseRxTabBarController.swift in Sources */,
 				EAD4E2992187757E000A7F34 /* ViperNavigator.swift in Sources */,
 				EAD4E2952187753A000A7F34 /* ViperContainer.swift in Sources */,
-				EAD4E29F2187795F000A7F34 /* TODO.swift in Sources */,
 				EAEC89F82184DD930042173A /* ViperRxPresenter.swift in Sources */,
 				EAEC89F22184DC510042173A /* MoviperIpc.swift in Sources */,
 				EAD4E29B218777FE000A7F34 /* UIViewUtils.swift in Sources */,
