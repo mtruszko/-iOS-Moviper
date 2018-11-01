@@ -1,0 +1,684 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		52D1F3020427CCCA47FE000E /* libPods-Moviper.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9DD92DD221B23BA5C909D691 /* libPods-Moviper.a */; };
+		EAD4E29321877508000A7F34 /* BaseStarter.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAD4E29221877508000A7F34 /* BaseStarter.swift */; };
+		EAD4E2952187753A000A7F34 /* ViperContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAD4E2942187753A000A7F34 /* ViperContainer.swift */; };
+		EAD4E2972187755D000A7F34 /* ContainerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAD4E2962187755D000A7F34 /* ContainerView.swift */; };
+		EAD4E2992187757E000A7F34 /* ViperNavigator.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAD4E2982187757E000A7F34 /* ViperNavigator.swift */; };
+		EAD4E29B218777FE000A7F34 /* UIViewUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAD4E29A218777FE000A7F34 /* UIViewUtils.swift */; };
+		EAD4E29D21877848000A7F34 /* RootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAD4E29C21877848000A7F34 /* RootViewController.swift */; };
+		EAD4E29F2187795F000A7F34 /* TODO.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAD4E29E2187795F000A7F34 /* TODO.swift */; };
+		EAEC89E02184C5C90042173A /* Moviper.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAEC89D62184C5C80042173A /* Moviper.framework */; };
+		EAEC89E52184C5C90042173A /* MoviperTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAEC89E42184C5C90042173A /* MoviperTests.swift */; };
+		EAEC89E72184C5C90042173A /* Moviper.h in Headers */ = {isa = PBXBuildFile; fileRef = EAEC89D92184C5C80042173A /* Moviper.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EAEC89F22184DC510042173A /* MoviperIpc.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAEC89F12184DC510042173A /* MoviperIpc.swift */; };
+		EAEC89F62184DD840042173A /* ViperRxInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAEC89F52184DD840042173A /* ViperRxInteractor.swift */; };
+		EAEC89F82184DD930042173A /* ViperRxPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAEC89F72184DD930042173A /* ViperRxPresenter.swift */; };
+		EAEC89FA2184DDA50042173A /* ViperRxRouting.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAEC89F92184DDA50042173A /* ViperRxRouting.swift */; };
+		EAEC89FC2184DDB40042173A /* ViperRxView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAEC89FB2184DDB40042173A /* ViperRxView.swift */; };
+		EAEC89FE2184DE110042173A /* BaseRx.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAEC89FD2184DE110042173A /* BaseRx.swift */; };
+		EAEC8A002184DE610042173A /* BaseRxInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAEC89FF2184DE610042173A /* BaseRxInteractor.swift */; };
+		EAEC8A022184DE710042173A /* BaseRxPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAEC8A012184DE710042173A /* BaseRxPresenter.swift */; };
+		EAEC8A042184DE820042173A /* BaseRxRouting.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAEC8A032184DE820042173A /* BaseRxRouting.swift */; };
+		EAEC8A062184DE940042173A /* BaseRxTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAEC8A052184DE940042173A /* BaseRxTabBarController.swift */; };
+		EAEC8A082184DEA50042173A /* BaseRxViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAEC8A072184DEA50042173A /* BaseRxViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EAEC89E12184C5C90042173A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EAEC89CD2184C5C80042173A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EAEC89D52184C5C80042173A;
+			remoteInfo = Moviper;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		656FFA4F62D77BAB552D1513 /* Pods-Moviper.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Moviper.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Moviper/Pods-Moviper.debug.xcconfig"; sourceTree = "<group>"; };
+		7CE21F9E28036BA5D71448BB /* Pods-Moviper.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Moviper.release.xcconfig"; path = "Pods/Target Support Files/Pods-Moviper/Pods-Moviper.release.xcconfig"; sourceTree = "<group>"; };
+		9DD92DD221B23BA5C909D691 /* libPods-Moviper.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Moviper.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EAAE97C62187C7A300FCF763 /* MoviperGenerambaTemplate.rambaspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = MoviperGenerambaTemplate.rambaspec; sourceTree = "<group>"; };
+		EAAE97C82187C7A300FCF763 /* view_tests.swift.liquid */ = {isa = PBXFileReference; lastKnownFileType = text; path = view_tests.swift.liquid; sourceTree = "<group>"; };
+		EAAE97C92187C7A300FCF763 /* routing_tests.swift.liquid */ = {isa = PBXFileReference; lastKnownFileType = text; path = routing_tests.swift.liquid; sourceTree = "<group>"; };
+		EAAE97CA2187C7A300FCF763 /* presenter_tests.swift.liquid */ = {isa = PBXFileReference; lastKnownFileType = text; path = presenter_tests.swift.liquid; sourceTree = "<group>"; };
+		EAAE97CB2187C7A300FCF763 /* interactor_tests.swift.liquid */ = {isa = PBXFileReference; lastKnownFileType = text; path = interactor_tests.swift.liquid; sourceTree = "<group>"; };
+		EAAE97CD2187C7A300FCF763 /* storyboard.storyboard.liquid */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = storyboard.storyboard.liquid; sourceTree = "<group>"; };
+		EAAE97CE2187C7A300FCF763 /* routing.swift.liquid */ = {isa = PBXFileReference; lastKnownFileType = text; path = routing.swift.liquid; sourceTree = "<group>"; };
+		EAAE97CF2187C7A300FCF763 /* contract.swift.liquid */ = {isa = PBXFileReference; lastKnownFileType = text; path = contract.swift.liquid; sourceTree = "<group>"; };
+		EAAE97D02187C7A300FCF763 /* viewcontroller.swift.liquid */ = {isa = PBXFileReference; lastKnownFileType = text; path = viewcontroller.swift.liquid; sourceTree = "<group>"; };
+		EAAE97D12187C7A300FCF763 /* presenter.swift.liquid */ = {isa = PBXFileReference; lastKnownFileType = text; path = presenter.swift.liquid; sourceTree = "<group>"; };
+		EAAE97D22187C7A300FCF763 /* starter.swift.liquid */ = {isa = PBXFileReference; lastKnownFileType = text; path = starter.swift.liquid; sourceTree = "<group>"; };
+		EAAE97D32187C7A300FCF763 /* interactor.swift.liquid */ = {isa = PBXFileReference; lastKnownFileType = text; path = interactor.swift.liquid; sourceTree = "<group>"; };
+		EAAE97D42187C7A300FCF763 /* Readme.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = Readme.md; sourceTree = "<group>"; };
+		EAD4E29221877508000A7F34 /* BaseStarter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseStarter.swift; sourceTree = "<group>"; };
+		EAD4E2942187753A000A7F34 /* ViperContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViperContainer.swift; sourceTree = "<group>"; };
+		EAD4E2962187755D000A7F34 /* ContainerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContainerView.swift; sourceTree = "<group>"; };
+		EAD4E2982187757E000A7F34 /* ViperNavigator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViperNavigator.swift; sourceTree = "<group>"; };
+		EAD4E29A218777FE000A7F34 /* UIViewUtils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewUtils.swift; sourceTree = "<group>"; };
+		EAD4E29C21877848000A7F34 /* RootViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootViewController.swift; sourceTree = "<group>"; };
+		EAD4E29E2187795F000A7F34 /* TODO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TODO.swift; sourceTree = "<group>"; };
+		EAEC89D62184C5C80042173A /* Moviper.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Moviper.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EAEC89D92184C5C80042173A /* Moviper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Moviper.h; sourceTree = "<group>"; };
+		EAEC89DA2184C5C80042173A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EAEC89DF2184C5C90042173A /* MoviperTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MoviperTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EAEC89E42184C5C90042173A /* MoviperTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoviperTests.swift; sourceTree = "<group>"; };
+		EAEC89E62184C5C90042173A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EAEC89F12184DC510042173A /* MoviperIpc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoviperIpc.swift; sourceTree = "<group>"; };
+		EAEC89F52184DD840042173A /* ViperRxInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViperRxInteractor.swift; sourceTree = "<group>"; };
+		EAEC89F72184DD930042173A /* ViperRxPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViperRxPresenter.swift; sourceTree = "<group>"; };
+		EAEC89F92184DDA50042173A /* ViperRxRouting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViperRxRouting.swift; sourceTree = "<group>"; };
+		EAEC89FB2184DDB40042173A /* ViperRxView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViperRxView.swift; sourceTree = "<group>"; };
+		EAEC89FD2184DE110042173A /* BaseRx.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseRx.swift; sourceTree = "<group>"; };
+		EAEC89FF2184DE610042173A /* BaseRxInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseRxInteractor.swift; sourceTree = "<group>"; };
+		EAEC8A012184DE710042173A /* BaseRxPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseRxPresenter.swift; sourceTree = "<group>"; };
+		EAEC8A032184DE820042173A /* BaseRxRouting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseRxRouting.swift; sourceTree = "<group>"; };
+		EAEC8A052184DE940042173A /* BaseRxTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseRxTabBarController.swift; sourceTree = "<group>"; };
+		EAEC8A072184DEA50042173A /* BaseRxViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseRxViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EAEC89D32184C5C80042173A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52D1F3020427CCCA47FE000E /* libPods-Moviper.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EAEC89DC2184C5C90042173A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EAEC89E02184C5C90042173A /* Moviper.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3BC4E67DE215C751B329382A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				656FFA4F62D77BAB552D1513 /* Pods-Moviper.debug.xcconfig */,
+				7CE21F9E28036BA5D71448BB /* Pods-Moviper.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		B3B8D1D8507D24C08553B936 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9DD92DD221B23BA5C909D691 /* libPods-Moviper.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EAAE97C32187C7A300FCF763 /* Generamba */ = {
+			isa = PBXGroup;
+			children = (
+				EAAE97C42187C7A300FCF763 /* Templates */,
+			);
+			path = Generamba;
+			sourceTree = "<group>";
+		};
+		EAAE97C42187C7A300FCF763 /* Templates */ = {
+			isa = PBXGroup;
+			children = (
+				EAAE97C52187C7A300FCF763 /* MoviperGenerambaTemplate */,
+			);
+			path = Templates;
+			sourceTree = "<group>";
+		};
+		EAAE97C52187C7A300FCF763 /* MoviperGenerambaTemplate */ = {
+			isa = PBXGroup;
+			children = (
+				EAAE97C62187C7A300FCF763 /* MoviperGenerambaTemplate.rambaspec */,
+				EAAE97C72187C7A300FCF763 /* Tests */,
+				EAAE97CC2187C7A300FCF763 /* Code */,
+				EAAE97D42187C7A300FCF763 /* Readme.md */,
+			);
+			path = MoviperGenerambaTemplate;
+			sourceTree = "<group>";
+		};
+		EAAE97C72187C7A300FCF763 /* Tests */ = {
+			isa = PBXGroup;
+			children = (
+				EAAE97C82187C7A300FCF763 /* view_tests.swift.liquid */,
+				EAAE97C92187C7A300FCF763 /* routing_tests.swift.liquid */,
+				EAAE97CA2187C7A300FCF763 /* presenter_tests.swift.liquid */,
+				EAAE97CB2187C7A300FCF763 /* interactor_tests.swift.liquid */,
+			);
+			path = Tests;
+			sourceTree = "<group>";
+		};
+		EAAE97CC2187C7A300FCF763 /* Code */ = {
+			isa = PBXGroup;
+			children = (
+				EAAE97CD2187C7A300FCF763 /* storyboard.storyboard.liquid */,
+				EAAE97CE2187C7A300FCF763 /* routing.swift.liquid */,
+				EAAE97CF2187C7A300FCF763 /* contract.swift.liquid */,
+				EAAE97D02187C7A300FCF763 /* viewcontroller.swift.liquid */,
+				EAAE97D12187C7A300FCF763 /* presenter.swift.liquid */,
+				EAAE97D22187C7A300FCF763 /* starter.swift.liquid */,
+				EAAE97D32187C7A300FCF763 /* interactor.swift.liquid */,
+			);
+			path = Code;
+			sourceTree = "<group>";
+		};
+		EAD4E29121877494000A7F34 /* Starter */ = {
+			isa = PBXGroup;
+			children = (
+				EAD4E29221877508000A7F34 /* BaseStarter.swift */,
+				EAD4E2962187755D000A7F34 /* ContainerView.swift */,
+				EAD4E2942187753A000A7F34 /* ViperContainer.swift */,
+				EAD4E2982187757E000A7F34 /* ViperNavigator.swift */,
+				EAD4E29A218777FE000A7F34 /* UIViewUtils.swift */,
+				EAD4E29C21877848000A7F34 /* RootViewController.swift */,
+			);
+			path = Starter;
+			sourceTree = "<group>";
+		};
+		EAEC89CC2184C5C80042173A = {
+			isa = PBXGroup;
+			children = (
+				EAAE97C32187C7A300FCF763 /* Generamba */,
+				EAEC89D82184C5C80042173A /* Moviper */,
+				EAEC89E32184C5C90042173A /* MoviperTests */,
+				EAEC89D72184C5C80042173A /* Products */,
+				3BC4E67DE215C751B329382A /* Pods */,
+				B3B8D1D8507D24C08553B936 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		EAEC89D72184C5C80042173A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EAEC89D62184C5C80042173A /* Moviper.framework */,
+				EAEC89DF2184C5C90042173A /* MoviperTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EAEC89D82184C5C80042173A /* Moviper */ = {
+			isa = PBXGroup;
+			children = (
+				EAEC89F02184DB400042173A /* Core */,
+				EAEC89D92184C5C80042173A /* Moviper.h */,
+				EAEC89DA2184C5C80042173A /* Info.plist */,
+			);
+			path = Moviper;
+			sourceTree = "<group>";
+		};
+		EAEC89E32184C5C90042173A /* MoviperTests */ = {
+			isa = PBXGroup;
+			children = (
+				EAEC89E42184C5C90042173A /* MoviperTests.swift */,
+				EAEC89E62184C5C90042173A /* Info.plist */,
+			);
+			path = MoviperTests;
+			sourceTree = "<group>";
+		};
+		EAEC89F02184DB400042173A /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				EAD4E29E2187795F000A7F34 /* TODO.swift */,
+				EAEC89F12184DC510042173A /* MoviperIpc.swift */,
+				EAEC89F42184DD640042173A /* Protocols */,
+				EAEC89F32184DD5D0042173A /* Base */,
+				EAD4E29121877494000A7F34 /* Starter */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		EAEC89F32184DD5D0042173A /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				EAEC89FD2184DE110042173A /* BaseRx.swift */,
+				EAEC89FF2184DE610042173A /* BaseRxInteractor.swift */,
+				EAEC8A012184DE710042173A /* BaseRxPresenter.swift */,
+				EAEC8A032184DE820042173A /* BaseRxRouting.swift */,
+				EAEC8A052184DE940042173A /* BaseRxTabBarController.swift */,
+				EAEC8A072184DEA50042173A /* BaseRxViewController.swift */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		EAEC89F42184DD640042173A /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				EAEC89F52184DD840042173A /* ViperRxInteractor.swift */,
+				EAEC89F72184DD930042173A /* ViperRxPresenter.swift */,
+				EAEC89F92184DDA50042173A /* ViperRxRouting.swift */,
+				EAEC89FB2184DDB40042173A /* ViperRxView.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		EAEC89D12184C5C80042173A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EAEC89E72184C5C90042173A /* Moviper.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		EAEC89D52184C5C80042173A /* Moviper */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EAEC89EA2184C5C90042173A /* Build configuration list for PBXNativeTarget "Moviper" */;
+			buildPhases = (
+				BE8A5535D35E31A48DAB417F /* [CP] Check Pods Manifest.lock */,
+				EAEC89D12184C5C80042173A /* Headers */,
+				EAEC89D22184C5C80042173A /* Sources */,
+				EAEC89D32184C5C80042173A /* Frameworks */,
+				EAEC89D42184C5C80042173A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Moviper;
+			productName = Moviper;
+			productReference = EAEC89D62184C5C80042173A /* Moviper.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		EAEC89DE2184C5C90042173A /* MoviperTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EAEC89ED2184C5C90042173A /* Build configuration list for PBXNativeTarget "MoviperTests" */;
+			buildPhases = (
+				EAEC89DB2184C5C90042173A /* Sources */,
+				EAEC89DC2184C5C90042173A /* Frameworks */,
+				EAEC89DD2184C5C90042173A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EAEC89E22184C5C90042173A /* PBXTargetDependency */,
+			);
+			name = MoviperTests;
+			productName = MoviperTests;
+			productReference = EAEC89DF2184C5C90042173A /* MoviperTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EAEC89CD2184C5C80042173A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1000;
+				LastUpgradeCheck = 1000;
+				ORGANIZATIONNAME = mtruszko;
+				TargetAttributes = {
+					EAEC89D52184C5C80042173A = {
+						CreatedOnToolsVersion = 10.0;
+						LastSwiftMigration = 1000;
+					};
+					EAEC89DE2184C5C90042173A = {
+						CreatedOnToolsVersion = 10.0;
+					};
+				};
+			};
+			buildConfigurationList = EAEC89D02184C5C80042173A /* Build configuration list for PBXProject "Moviper" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = EAEC89CC2184C5C80042173A;
+			productRefGroup = EAEC89D72184C5C80042173A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EAEC89D52184C5C80042173A /* Moviper */,
+				EAEC89DE2184C5C90042173A /* MoviperTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EAEC89D42184C5C80042173A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EAEC89DD2184C5C90042173A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		BE8A5535D35E31A48DAB417F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Moviper-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EAEC89D22184C5C80042173A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EAD4E29321877508000A7F34 /* BaseStarter.swift in Sources */,
+				EAD4E29D21877848000A7F34 /* RootViewController.swift in Sources */,
+				EAEC8A062184DE940042173A /* BaseRxTabBarController.swift in Sources */,
+				EAD4E2992187757E000A7F34 /* ViperNavigator.swift in Sources */,
+				EAD4E2952187753A000A7F34 /* ViperContainer.swift in Sources */,
+				EAD4E29F2187795F000A7F34 /* TODO.swift in Sources */,
+				EAEC89F82184DD930042173A /* ViperRxPresenter.swift in Sources */,
+				EAEC89F22184DC510042173A /* MoviperIpc.swift in Sources */,
+				EAD4E29B218777FE000A7F34 /* UIViewUtils.swift in Sources */,
+				EAEC8A082184DEA50042173A /* BaseRxViewController.swift in Sources */,
+				EAEC8A042184DE820042173A /* BaseRxRouting.swift in Sources */,
+				EAEC89FE2184DE110042173A /* BaseRx.swift in Sources */,
+				EAEC89FC2184DDB40042173A /* ViperRxView.swift in Sources */,
+				EAEC8A002184DE610042173A /* BaseRxInteractor.swift in Sources */,
+				EAEC8A022184DE710042173A /* BaseRxPresenter.swift in Sources */,
+				EAEC89F62184DD840042173A /* ViperRxInteractor.swift in Sources */,
+				EAD4E2972187755D000A7F34 /* ContainerView.swift in Sources */,
+				EAEC89FA2184DDA50042173A /* ViperRxRouting.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EAEC89DB2184C5C90042173A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EAEC89E52184C5C90042173A /* MoviperTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EAEC89E22184C5C90042173A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EAEC89D52184C5C80042173A /* Moviper */;
+			targetProxy = EAEC89E12184C5C90042173A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		EAEC89E82184C5C90042173A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		EAEC89E92184C5C90042173A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		EAEC89EB2184C5C90042173A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 656FFA4F62D77BAB552D1513 /* Pods-Moviper.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = Moviper/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = mt.Moviper;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EAEC89EC2184C5C90042173A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7CE21F9E28036BA5D71448BB /* Pods-Moviper.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = Moviper/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = mt.Moviper;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		EAEC89EE2184C5C90042173A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MoviperTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = mt.MoviperTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EAEC89EF2184C5C90042173A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MoviperTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = mt.MoviperTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EAEC89D02184C5C80042173A /* Build configuration list for PBXProject "Moviper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EAEC89E82184C5C90042173A /* Debug */,
+				EAEC89E92184C5C90042173A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EAEC89EA2184C5C90042173A /* Build configuration list for PBXNativeTarget "Moviper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EAEC89EB2184C5C90042173A /* Debug */,
+				EAEC89EC2184C5C90042173A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EAEC89ED2184C5C90042173A /* Build configuration list for PBXNativeTarget "MoviperTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EAEC89EE2184C5C90042173A /* Debug */,
+				EAEC89EF2184C5C90042173A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EAEC89CD2184C5C80042173A /* Project object */;
+}

@@ -1,0 +1,33 @@
+//
+//  {{ module_info.file_name }}
+//  {{ module_info.project_name }}
+//
+//  Created by {{ developer.name }} on {{ date }}.
+//  Copyright © {{ year }} {{ developer.company }}. All rights reserved.
+//
+
+import UIKit
+import Moviper
+
+class {{ module_info.name }}Starter: BaseStarter<{{ module_info.name }}ViewController> {
+    override func startOn(viperView: ViperNavigator,
+                          animated: Bool = true,
+                          configurationBlock: (({{ module_info.name }}ViewController) -> ())? = nil) {
+        let a{{ module_info.name }}ViewController = UIViewController.get{{ module_info.name }}ViewController()
+        configurationBlock?(a{{ module_info.name }}ViewController)
+        //viperView.presentOnTopView(destinationViewController: a{{ module_info.name }}ViewController, animated: animated)
+    }
+}
+
+extension UIViewController {
+    static func get{{ module_info.name }}ViewController() -> {{ module_info.name }}ViewController {
+        return UIStoryboard.get{{ module_info.name }}Storyboard()
+            .instantiateInitialViewController() as! {{ module_info.name }}ViewController
+    }
+}
+
+extension UIStoryboard {
+    static func get{{ module_info.name }}Storyboard() -> UIStoryboard {
+        return UIStoryboard(name: "{{ module_info.name }}", bundle: nil)
+    }
+}
