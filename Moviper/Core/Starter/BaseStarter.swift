@@ -9,6 +9,8 @@
 import UIKit
 
 open class BaseStarter<View> {
+    public init() {}
+    
     open func startOn(viperView: ViperNavigator,
                  animated: Bool,
                  configurationBlock: ((View) -> ())?) {
